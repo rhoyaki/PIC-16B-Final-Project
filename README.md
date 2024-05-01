@@ -41,11 +41,11 @@ Linear Algebra:
 - Visualization of Error
   
 Ryan Hu:
-By May 10th: Acquisition of target data (financial data)
-By May 20th: Creation of director_score and actor_score variables for complete dataframe
-By May 30th: Evaluation, Visualization of Error
+- By May 10th: Acquisition of target data (financial data)
+- By May 20th: Creation of director_score and actor_score variables for complete dataframe
+- By May 30th: Evaluation, Visualization of Error
 
 Kyo Imura:
-By May 10th: Acquisition of data, web scraping, preprocessing?
-By May 20th: Feature selection, NN training, optimization
-By May 30th: Evaluation, Visualization of Error
+- By May 10th: Acquisition of data, web scraping, preprocessing?
+- By May 20th: Feature selection, NN training, optimization
+- By May 30th: Evaluation, Visualization of Error
