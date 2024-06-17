@@ -19,9 +19,13 @@ The fully connected neural network (FNN) model constructed is designed to handle
 **FNN Model Type 3**
 Hyperparameter tuning with keras tuner for the following model structure:
 
-**XGBoost Model**
+**Model Type 3**
+**Least Correlated Feature Dropped**
+**Additional Model**
 
-**Lasso Model**
+**Ensemble Modeling**
+XGBoost Model and Lasso Model
+
 
 **Additional Data Model (FNN)**
 Addition of new dataset to previous training data to experiment with using more data to train. Additional data only applies to this section/model. Three hidden dense layers of 258 neurons with a dropout layer of with rate = 0.2 after the first and second hidden layers and a dropout layer with rate = 0.1 after the third hidden layer. All hidden layers used ReLU activation function with he_normal kernel initializer.
@@ -36,7 +40,10 @@ Turn target labels from continous numerical column and try classification approa
 **FNN Model Type 2**
  26.0% -  28.0% MAPE on the validation set, and a 27.0% MAPE on unseen data. 
 
- **FNN Model Type 3**
+ **Hyperparameter Tuned Models**
+FNN Model Type 3, 27-31% MAPE on unseen data
+~32.0% MAPE on unseen data **without** 'rating' column
+Additional Model, 30-32% MAPE on unseen data
 
 **XGBoost Model**
 33-36% MAPE on unseen data **with** 'rating' column
