@@ -43,7 +43,7 @@ Turn target labels from continous numerical column and try classification approa
 30-33% MAPE on unseen data **without** 'rating' column
 
 **Lasso Model**
-~38.4% MAPE on validation data.
+~38.4% MAPE on validation data, and a 44.0% MAPE on unseen data.
 
 **Additional Data Model (FNN)**
 50 - 53% MAPE on the validation set, and a 52.0% MAPE on unseen data.
