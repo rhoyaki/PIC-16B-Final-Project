@@ -24,9 +24,10 @@ Hyperparameter tuning with keras tuner for the following model structure:
 **Lasso Model**
 
 **Additional Data Model (FNN)**
+Addition of new dataset to previous training data to experiment with using more data to train. Additional data only applies to this section/model. Three hidden dense layers of 258 neurons with a dropout layer of with rate = 0.2 after the first and second hidden layers and a dropout layer with rate = 0.1 after the third hidden layer. All hidden layers used ReLU activation function with he_normal kernel initializer.
 
 **Classification Model**
-
+Turn target labels from continous numerical column and try classification approach. Three hidden dense layers of 64 neurons with a dropout layer of with rate = 0.3 between the second and third hidden layers. All hidden layers used ReLU activation function with he_normal kernel initializer.
 
 ## Performance
 **FNN Preliminary Model**
@@ -41,8 +42,15 @@ Hyperparameter tuning with keras tuner for the following model structure:
 33-36% MAPE on unseen data **with** 'rating' column
 30-33% MAPE on unseen data **without** 'rating' column
 
+**Lasso Model**
+~38.4% MAPE on unseen data.
+
 **Additional Data Model (FNN)**
 50 - 53% MAPE on the validation set, and a 52.0% MAPE on unseen data.
+
+**Classification Model**
+30-35% accuracy on validation set, and a 40% accuracy on unseen data.
+~40% accuracy for hyperparameter tuned classification model.
 
 ## Conclusion
 
