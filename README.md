@@ -19,9 +19,8 @@ The fully connected neural network (FNN) model constructed is designed to handle
 **FNN Model Type 3**
 Hyperparameter tuning with keras tuner for the following model structure:
 
-**Model Type 3**
-**Least Correlated Feature Dropped**
-**Additional Model**
+**Model Type 3, without 'rating' column, Additional Model
+
 
 **Ensemble Modeling**
 XGBoost Model and Lasso Model
